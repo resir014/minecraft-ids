@@ -1,0 +1,40 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Setup
+title:            resir014
+tagline:          "A database of Minecraft Item IDs, mobs and items. (Work in progress)"
+url:              https://resir014.github.io
+baseurl:          "/minecraft-ids"
+exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:       _sass
+  style:          :compressed
+
+# data-page-generator
+page_gen:
+  - data: blocks
+    template: default
+    name: name
+    dir: blocks
+  - data: items
+    template: default
+    name: name
+    dir: items
+
+# About/contact
+author:
+  name:           Resi Respati
+  url:            https://twitter.com/resir014
+  email:          resir014@gmail.com
