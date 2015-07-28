@@ -2,5 +2,7 @@
 # Front-matter to ensure Jekyll properly reads file.
 ---
 
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
 @import "variables";
 @import "mixins";

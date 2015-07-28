@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-ids",
+  "version": "0.0.0",
+  "authors": [
+    "Resi Respati <resir014@gmail.com>"
+  ],
+  "description": "A database of Minecraft Item IDs, mobs and items.",
+  "license": "MIT",
+  "homepage": "https://resir014.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

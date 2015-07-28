@@ -13,7 +13,7 @@ title:            resir014
 tagline:          "A database of Minecraft Item IDs, mobs and items. (Work in progress)"
 url:              https://resir014.github.io
 baseurl:          "/minecraft-ids"
-exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
+exclude:          ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "bower_components", "package.json"]
 
 # Assets
 #
