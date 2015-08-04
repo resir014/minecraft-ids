@@ -9,7 +9,7 @@ markdown:         kramdown
 highlighter:      pygments
 
 # Setup
-title:            resir014
+title:            Minecraft ID Database
 tagline:          "A database of Minecraft Item IDs, mobs and items. (Work in progress)"
 url:              https://resir014.github.io
 baseurl:          "/minecraft-ids"
